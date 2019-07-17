@@ -1,0 +1,363 @@
+
+
+
+/***********************NAV MENU***********************/
+.headingcolor{	
+width: 100%;
+height:100px;
+background-color: #4d4d4d;}
+.thenavbar{
+text-align: center;
+padding-top:35px;
+font-size:25px;
+column-gap: 1px;
+width: 100%;}
+a:link {color: white;}
+a:visited {color: white;}
+a:hover {color: hotpink; text-decoration: none; }
+a:active {color: hotpink;}
+/***********************NAV MENU***********************/
+
+
+/*******************TITLE BANNER***************************/
+.firstbanner{
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center center; 
+background-image: url("images/thefirstone.jpg");
+height:500px;
+padding-left: 500px;
+padding-right: 550px;
+padding-top:150px;
+width: 100%;
+margin-bottom: 100px;
+}
+
+#title{
+	display: block;
+}
+
+
+#bannerofunder{
+	display: block;
+}
+   
+/*******************TITLE BANNER***************************/
+
+
+
+/*******************FIRST TRIO OF BOXES***************************/
+.firsttitle{
+text-align: center;
+margin-bottom: 35px;
+}
+.supportingtext{ color: grey; }
+
+.maintitletop{	font-size: 35px;
+	margin-bottom: 30px;}
+
+h2{margin-bottom: 20px; margin-top: 20px; font-size:25px;}
+
+.undertirotext{font-size:15px; color:darkgrey;}
+
+.firsttrio{
+font-size: 20px;
+text-align: center;
+margin-bottom:80px;
+}
+
+
+
+#firstone:hover{animation: linear forwards 0.5s theexpand2;
+	padding: 0px;
+border:0px;
+padding:0px;
+}
+.overlayer1{margin-top: 50px;}
+#eng{background:url("images/handholding.jpg");
+background-repeat: no-repeat;
+background:cover;
+background-position: center center;
+height:300px;
+width: 100%;}
+
+#secondone:hover{animation: linear forwards 0.5s theexpand;
+padding: 0px;
+border:0px;
+padding:0px;}
+.overlayer2{margin-top: 50px;}
+#ing{background:url("images/flowerthrowing.jpg");
+background-repeat: no-repeat;
+background:cover;
+background-position: center center;
+height:300px;
+width: 100%;}
+
+
+
+#thirdone:hover{animation: linear forwards 0.5s theexpand;
+display: block;
+padding: 0px;
+border:0px;
+padding:0px;}
+.overlayer3{margin-top: 50px;}
+#ily{background:url("images/babykissing.jpg");
+background-repeat: no-repeat;
+background:cover;
+background-position: center center;
+height:300px;
+width: 100%;
+
+}
+
+@keyframes theexpand2{
+	0%{transform:scale(1); opacity:1; box-shadow: none;}
+	100%{transform:scale(1.1); opacity:0.7; box-shadow: -10px 2px 15px 0px rgba(0,0,0,0.75); }
+}
+
+@keyframes theexpand{
+	0%{transform:scale(1); opacity:1; box-shadow: none;}
+	100%{transform:scale(1.1); opacity:0.7; box-shadow: 10px 2px 15px 0px rgba(0,0,0,0.75); }
+}
+
+/*******************FIRST TRIO OF BOXES***************************/
+
+
+/************************OPACITY BANNER**********************/
+.socialmediabanner{
+font-size: 25px;
+	text-align: center;
+	background-image: url("images/settable.jpg");
+	background-position: center;
+	height:500px; 
+	width:100%;
+	color: white;
+	margin-bottom: 100px;
+}
+
+h3{ padding-top: 100px;
+font-size: 40px;
+margin-bottom:50px;}
+
+.fa-twitter{background-color:rgb(169,169,169, 0.5); 
+	border-radius:60px; width:90px; height:90px; 
+	background-opacity: 0.5; color:white; margin-bottom:25px; padding-top:20px;}
+	#twit:hover{animation:linear forwards 0.5s theshader  }
+@keyframes theshader{
+0%{transform: opacity:0.1; color: white; }
+100%{transform: opacity: 1; color: #00ffff;}
+}
+
+.fa-facebook-f{background-color:rgb(169,169,169, 0.5); 
+	border-radius:60px; width:90px; height:90px; 
+	background-opacity: 0.5; color:white; margin-bottom:25px; padding-top:20px;}
+	#face:hover{animation:linear forwards 0.5s theshader2  }
+@keyframes theshader2{
+0%{transform: opacity:0.1; color: white; }
+100%{transform: opacity: 1; color: #3385ff;}
+}
+
+.fa-pinterest-p{background-color:rgb(169,169,169, 0.5); 
+	border-radius:60px; width:90px; height:90px; 
+	background-opacity: 0.5; color:white; margin-bottom:25px; padding-top:20px;}
+	#pin:hover{animation:linear forwards 0.5s theshader3  }
+@keyframes theshader3{
+0%{transform: opacity:0.1; color: white; }
+100%{transform: opacity: 1; color: #e60000;}
+}
+
+.fa-instagram{background-color:rgb(169,169,169, 0.5); 
+	border-radius:60px; width:90px; height:90px; 
+	background-opacity: 0.5; color:white; margin-bottom:25px; padding-top:20px;}
+	#gram:hover{animation:linear forwards 0.5s theshader4  }
+@keyframes theshader4{
+0%{transform: opacity:0.1; color: white; }
+100%{transform: opacity: 1; color:#bf00ff;}
+}
+
+/************************OPACITY BANNER**********************/
+
+
+/************************VECTOR SECTION**********************/
+.vectortrio{
+margin-bottom: 50px;
+	text-align: center;
+}
+.vectortitle{font-size:35px; margin-bottom: 50px; }
+
+h4{margin-top: 50px;}
+
+.contactbutton{ background-color: pink; 
+color:grey; padding:15px;
+width:200px; margin-bottom: 50px;
+margin-top: 50px;
+}
+
+.camerashake{animation: linear forwards 1s camshake infinite}
+@keyframes camshake{
+	0%{transform:rotate(0deg);}
+	50%{transform: rotate(15deg);}
+	100%{transform: rotate(-15deg);}
+}
+
+
+.lens{animation: linear forwards 1s lens2lens infinite}
+@keyframes lens2lens{
+0%{transform: rotate(0deg);}
+100%{transform: rotate(360deg);}
+}
+
+
+
+.pictureframe{width:145px; height:145px;}
+.theleftdude{animation: linear forwards 5s moveroftheframe infinite; animation-delay: 2s;}
+.therightgirl{animation: linear forwards 5s moveroftheframe2 infinite; animation-delay: 2s;}
+
+@keyframes moveroftheframe {
+  0%{transform:translate(-150px, 0px);}
+  20% {transform: translate(0px, 0);}
+  100% {transform: translate(0px, 0);}}
+
+  @keyframes moveroftheframe2 {
+0%{transform:translate(150px, 0px);}
+  20% {transform: translate(0px, 0);}
+  100% {transform: translate(0px, 0);}}
+
+
+
+/************************VECTOR SECTION**********************/
+
+/************************TESTIMONIAL BANNER**********************/
+.testis{
+color: white;
+text-align: center;
+background-image: url("images/backhand.jpg");background-size:cover;
+background-repeat: no-repeat;
+height:400px;
+width:100%;}
+
+
+.testitext{color:lightgrey;
+font-size: 15px; margin-bottom: }
+
+h5{font-size: 40px;
+padding-top:100px;
+padding-bottom: 15px;}
+/************************TESTIMONIAL BANNER**********************/
+
+
+
+
+/************************6 BY 2 FEATURED WEDDINGS**********************/
+.featuredweds{
+	text-align: center;
+	margin-top: 60px;
+	font-size: 25px;
+}
+h6{font-size: 30px; margin-bottom: 50px;}
+
+
+#wat:hover{animation: linear forwards 0.5s theexpand2;
+display: block;
+padding: 0px;
+border:0px;
+padding:0px;}
+.weddingwater{background:url("images/weddingbywater.jpg");
+background-repeat: no-repeat;
+background:cover;
+background-position: center center;
+height:300px;
+width: 100%;}
+
+
+
+#pet:hover{animation: linear forwards 0.5s theexpand;
+display: block;
+padding: 0px;
+border:0px;
+padding:0px;}
+.fallingpetal{background:url("images/falllingpetalsisle.jpg");
+background-repeat: no-repeat;
+background:cover;
+background-position: center center;
+height:300px;
+width: 100%;}
+
+
+
+#fore:hover{animation: linear forwards 0.5s theexpand;
+display: block;
+padding: 0px;
+border:0px;
+padding:0px;}
+.forhead{background:url("images/lrsningonforhead.jpg");
+background-repeat: no-repeat;
+background:cover;
+background-position: center center;
+height:300px;
+width: 100%;}
+
+
+@keyframes theexpand2{
+	0%{transform:scale(1); opacity:1; box-shadow: none;}
+	100%{transform:scale(1.1); opacity:0.7; box-shadow: -10px 2px 15px 0px rgba(0,0,0,0.75); }
+}
+
+@keyframes theexpand{
+	0%{transform:scale(1); opacity:1; box-shadow: none;}
+	100%{transform:scale(1.1); opacity:0.7; box-shadow: 10px 2px 15px 0px rgba(0,0,0,0.75); }
+}
+
+#forestwed:hover{animation: linear forwards 0.5s theexpand2;
+display: block;
+padding: 0px;
+border:0px;
+padding:0px;}
+.foresting{background:url("images/standinginfield.jpg");
+background-repeat: no-repeat;
+background:cover;
+background-position: center center;
+height:300px;
+width: 100%;}
+
+#castlewed:hover{animation: linear forwards 0.5s theexpand;
+display: block;
+padding: 0px;
+border:0px;
+padding:0px;}
+.castleing{background:url("images/goingupstairs.jpg");
+background-repeat: no-repeat;
+background:cover;
+background-position: center center;
+height:300px;
+width: 100%;}
+
+#hillwed:hover{animation: linear forwards 0.5s theexpand;
+display: block;
+padding: 0px;
+border:0px;
+padding:0px;}
+.hilling{background:url("images/holdingonahill.jpg");
+background-repeat: no-repeat;
+background:cover;
+background-position: center center;
+height:300px;
+width: 100%;}
+
+
+#feattext{
+	margin-top: 25px;
+}
+
+/************************6 BY 2 FEATURED WEDDINGS**********************/
+
+/************************COPYRIGHT FOOTER**********************/
+.footercopy{
+	color: white;
+	padding-left:180px;
+padding-top: 25px;
+background-color: #4d4d4d;
+height:70px;
+width: 100%;
+}
+/************************COPYRIGHT FOOTER**********************/

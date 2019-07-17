@@ -1,0 +1,250 @@
+
+
+
+/***********************NAV MENU***********************/
+header{
+	width: 100%;
+	height:100px;
+	background-color: #4d4d4d;
+}
+.thenavbar{
+text-align: center;
+padding-top:35px;
+font-size:25px;
+  column-gap: 1px;
+  width: 100%px;
+}
+a:link {color: white; }
+a:visited {color: white; }
+a:hover {color: hotpink; text-decoration: none; }
+a:active {color: hotpink; }
+
+
+
+/***********************NAV MENU***********************/
+/*******************TITLE BANNER***************************/
+.firstbanner{
+	background-size:cover;
+	background-repeat: no-repeat;
+	 background-position: center center; 
+	background-image: url("images/thefirstone.jpg");
+	height:500px;
+padding-left: 500px;
+padding-right: 550px;
+padding-top:150px;
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+#title{
+
+}
+
+
+#bannerofunder{
+padding-left:30px; 
+padding-top: 30px;
+}
+/*******************TITLE BANNER***************************/
+
+
+
+
+
+
+
+/*******************FIRST TRIO OF BOXES***************************/
+h1{ 
+	font-size: 35px;
+	margin-bottom: 30px;
+}
+
+.firsttitle{
+font-size: 20px;
+text-align: center;
+margin-bottom: 35px;
+}
+
+
+
+h2{margin-bottom: 20px; margin-top: 20px; font-size:25px;}
+.undertirotext{font-size:15px; color:darkgrey;}
+.firsttrio{
+font-size: 20px;
+text-align: center;
+margin-bottom:80px;
+}
+
+
+
+#firstone:hover{animation: linear forwards 0.5s theexpand2;
+	padding: 0px;
+border:0px;
+padding:0px;
+}
+.overlayer1{margin-top: 50px;}
+#carrycar{background:url("images/outcar.jpg");
+background-repeat: no-repeat;
+background:cover;
+background-position: center center;
+height:300px;
+width: 100%;}
+
+#secondone:hover{animation: linear forwards 0.5s theexpand;
+padding: 0px;
+border:0px;
+padding:0px;}
+.overlayer2{margin-top: 50px;}
+#sand{background:url("images/beach.jpg");
+background-repeat: no-repeat;
+background:cover;
+background-position: center center;
+height:300px;
+width: 100%;}
+
+
+
+#thirdone:hover{animation: linear forwards 0.5s theexpand;
+display: block;
+padding: 0px;
+border:0px;
+padding:0px;}
+.overlayer3{margin-top: 50px;}
+#smokebreak{background:url("images/smokey.jpg");
+background-repeat: no-repeat;
+background:cover;
+background-position: center center;
+height:300px;
+width: 100%;
+
+}
+
+@keyframes theexpand2{
+	0%{transform:scale(1); opacity:1; box-shadow: none;}
+	100%{transform:scale(1.1); opacity:0.7; box-shadow: -10px 2px 15px 0px rgba(0,0,0,0.75); }
+}
+
+@keyframes theexpand{
+	0%{transform:scale(1); opacity:1; box-shadow: none;}
+	100%{transform:scale(1.1); opacity:0.7; box-shadow: 10px 2px 15px 0px rgba(0,0,0,0.75); }
+}
+
+/*******************FIRST TRIO OF BOXES***************************/
+
+
+
+/**********************SECTIONAL TEXT************************/
+h3{text-align: center;
+font-size: 30px;
+margin-bottom: 50px;}
+h4{font-size:30px; margin-bottom: 20px;}
+#bodyoftext{}
+
+
+/**********************SECTIONAL TEXT************************/
+
+
+
+
+
+/**********************FLOWER SEPORATOR************************/
+.flowerbanner{
+font-size: 25px;
+	text-align: center;
+	background-image: url("images/flowerborder.jpg");
+	background-position: center;
+	height:500px; 
+	width:100%;
+	color: white;
+	margin-bottom: 100px;
+	margin-top: 50px;
+	padding-top: 180px;
+
+}
+
+.contactbutton{ background-color: pink; 
+color:grey; padding:15px;
+width:200px; margin-bottom: 50px;
+margin-top: 25px;
+}
+/**********************FLOWER SEPORATOR************************/
+
+
+
+
+
+/**********************HORIZONTAL TRIO************************/
+
+.bottomtitle{text-align: center;}
+#fieldboy:hover{animation: linear forwards 0.5s theexpand;
+display: block;
+padding-left: 0px;
+padding-right:0px;
+
+}
+.overlayer3{margin-top: 50px;}
+.thefield{background:url("images/standinginfield.jpg");
+background-repeat: no-repeat;
+background:cover;
+background-position: center center;
+height:300px;
+margin-top:20px;
+
+}
+
+#castlehover:hover{animation: linear forwards 0.5s theexpand;
+display: block;
+padding-right: 0px;
+border:0px;
+padding-left:0px;
+}
+.overlayer3{margin-top: 50px;}
+.castle{background:url("images/castlestairs.jpg");
+background-repeat: no-repeat;
+background:cover;
+background-position: center center;
+height:300px;
+margin-top: 50px;
+}
+
+#flowerssmelly:hover{animation: linear forwards 0.5s theexpand;
+display: block;
+padding-right: 0px;
+border:0px;
+padding-left:0px;
+}
+.overlayer3{margin-top: 50px;}
+.flowersinhand{background:url("images/smellingflower.jpg");
+background-repeat: no-repeat;
+background:cover;
+background-position: center center;
+height:300px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.timer{margin-top: 20px; font-size:25px;}
+.loca{margin-top: 50px; font-size:25px;}
+.pose{
+	margin-top: 50px; font-size:25px;}
+.texter{ color:darkgrey;}
+
+
+/**********************HORIZONTAL TRIO************************/
+
+
+
+
+
+
+
+/************************COPYRIGHT FOOTER**********************/
+.footercopy{
+	color: white;
+	padding-left:180px;
+padding-top: 25px;
+background-color: #4d4d4d;
+height:70px;
+width: 100%;
+}
+/************************COPYRIGHT FOOTER**********************/
